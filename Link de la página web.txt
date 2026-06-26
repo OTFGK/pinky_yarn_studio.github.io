@@ -1,0 +1,7 @@
+Proyecto: Pinky Yarn Studio
+
+1. Página web publicada (GitHub Pages):
+https://otfgk.github.io/pinky_yarn_studio.github.io/
+
+2. Repositorio con el código fuente:
+https://github.com/OTFGK/pinky_yarn_studio.github.io
