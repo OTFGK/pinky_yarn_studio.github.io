@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinky Yarn Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid navbar-container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="/img/logo.svg" alt="logo" width="50" height="50">
+                <span class="ms-2 logo-text">Pinky Yarn Studio</span>
+            </a>
+            <div class="navbar-actions">
+                <a class="btn-contactar" href="#">
+                    <i class="bi bi-whatsapp"></i>
+                    <span class="contact-text">Contáctanos</span>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#best-sellers">Los productos más vendidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre nostros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Colecciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Amigurumis</a></li>
+                            <li><a class="dropdown-item" href="#">Ropa</a></li>
+                            <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Descubre nuestra <span>nueva colección</span></h1>
+                    <p>Crochet hecho con estilo y creatividad.</p>
+                    <a href="#" class="btn btn-catalogo">Ver colección</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/newcollection.svg" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BEST SELLERS -->
+    <section id="best" class="best-sellers">
+        <div class="best-sellers-content">
+            <h2 class="section-title" id="best-sellers">Los productos más vendidos</h2>
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card product-card h-100">
+                        <img src="img/tortuga.avif" class="card-img-top" alt="Amigurumi Oso">
+                        <div class="card-body text-center">
+                            <h5>Amigurumi de tortuga marina Jumbo</h5>
+                            <button class="btn btn-pink">¡Lo quiero!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card product-card h-100">
+                        <img src="img/llaveros.webp" class="card-img-top" alt="Llaveros Cute">
+                        <div class="card-body text-center">
+                            <h5>Llavero amigurumi de gato kawaii</h5>
+                            <button class="btn btn-pink">¡Lo quiero!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card product-card h-100">
+                        <img src="img/portatarjetas.avif" class="card-img-top" alt="Flores Crochet">
+                        <div class="card-body text-center">
+                            <h5>Photocards holders K-pop personalizados</h5>
+                            <button class="btn btn-pink">¡Lo quiero!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card product-card h-100">
+                        <img src="img/ramo.avif" class="card-img-top" alt="Accesorios">
+                        <div class="card-body text-center">
+                            <h5>Ramo de graduación con muñeca personalizada</h5>
+                            <button class="btn btn-pink">¡Lo quiero!</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <h2 class="section-title">Sobre nosotros</h2>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="about-card">
+                        <h3>¿Quiénes somos?</h3>
+                        <p>
+                            Somos un emprendimiento conformado por jóvenes apasionados
+                            por el crochet artesanal. Diseñamos piezas únicas hechas
+                            a mano con creatividad, dedicación y atención a cada detalle.
+                        </p>
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8iInUk3EM4?si=6sEO2nPRHKkU3mgC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-card">
+                        <h3>Encuéntranos aquí</h3>
+                        <p>
+                            Estamos ubicados en Lima y participamos constantemente
+                            en ferias artesanales y eventos creativos.
+                        </p>
+                        <div class="ratio ratio-16x9">  
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.7275378613194!2d-77.03920032405935!3d-12.062258188175873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c035ead921%3A0x3126d574246724aa!2sParque%20de%20la%20Exposici%C3%B3n!5e0!3m2!1ses-419!2spe!4v1782503670010!5m2!1ses-419!2spe" 
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                            </iframe>                     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SUSCRIPCIÓN -->
+    <section class="subscribe-section">
+        <div class="subscribe-box">
+            <h3>Recibe ofertas exclusivas y conoce nuestros nuevos productos antes que nadie</h3>
+            <p>Suscríbete y entérate de lanzamientos, promociones y novedades.</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Ingresa tu correo electrónico">
+                <button class="btn btn-pink">Suscribirme</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- INFO PRINCIPAL -->
+    <section class="info-section">
+        <div class="info-container">
+            <div class="row g-5">
+                <!-- Logo -->
+                <div class="col-lg-3">
+                    <img
+                        src="img/gato_rosa.svg"
+                        alt="Mascota Pinky Yarn Studio"
+                        class="mascot">
+
+                    <p class="info-slogan">
+                        Hecho con amor,
+                        calidad y creatividad
+                    </p>
+                </div>
+                <!-- Servicios -->
+                <div class="col-lg-2">
+                    <span class="info-title">
+                        Servicios
+                    </span>
+                    <ul class="info-links">
+                        <li>Amigurumis personalizados</li>
+                        <li>Ropa crochet</li>
+                        <li>Accesorios</li>
+                        <li>Regalos personalizados</li>
+                        <li>Decoración artesanal</li>
+                    </ul>
+                </div>
+                <!-- Pedidos -->
+                <div class="col-lg-2">
+                    <span class="info-title">
+                        Pedidos
+                    </span>
+                    <ul class="info-links">
+                        <li>Política de envío</li>
+                        <li>Devoluciones</li>
+                        <li>Reembolsos</li>
+                        <li>Venta al por mayor</li>
+                        <li>Contáctanos</li>
+                    </ul>
+                </div>
+                <!-- Explorar -->
+                <div class="col-lg-2">
+                    <span class="info-title">
+                        Explorar
+                    </span>
+                    <ul class="info-links">
+                        <li>Preguntas frecuentes</li>
+                        <li>Galería</li>
+                        <li>Ferias artesanales</li>
+                        <li>Nuestra historia</li>
+                    </ul>
+                </div>
+                <!-- Redes -->
+                <div class="col-lg-3">
+
+                    <span class="info-title">
+                        Redes Sociales
+                    </span>
+
+                    <ul class="info-links">
+                        <li>Instagram</li>
+                        <li>TikTok</li>
+                        <li>Facebook</li>
+                        <li>YouTube</li>
+                        <li>WhatsApp</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-brand">
+            <img src="/img/logo.svg" alt="Logo de Pinky Yarn Studio" width="40" height="40">
+            <span class="logo-footer">Pinky Yarn Studio</span>  
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.tiktok.com"><i class="bi bi-tiktok"></i></a>
+            <a href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.youtube.com"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.whatsapp.com"><i class="bi bi-whatsapp"></i></a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Pinky Yarn Studio • Perú • Todos los derechos reservados</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
